@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Reservation_App.AbstractReservationFactory">
+    <Position X="13.75" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQAAAA=</HashCode>
+      <FileName>ReservationFactories\Abstract\AbstractReservationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reservation_App.Ucak">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Concretes\Ucak.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Reservation_App.Otobus">
+    <Position X="2.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Concretes\Otobus.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Reservation_App.Cadir">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Concretes\Cadir.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Reservation_App.Otel">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Concretes\Otel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Reservation_App.ReservationFactory1">
+    <Position X="10.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQAAAA=</HashCode>
+      <FileName>ReservationFactories\Concretes\ReservationFactory1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reservation_App.ReservationFactory2">
+    <Position X="13.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQAAAA=</HashCode>
+      <FileName>ReservationFactories\Concretes\ReservationFactory2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reservation_App.ReservationFactory3">
+    <Position X="15.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQAAAA=</HashCode>
+      <FileName>ReservationFactories\Concretes\ReservationFactory3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reservation_App.ReservationFactory4">
+    <Position X="17.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQAAAA=</HashCode>
+      <FileName>ReservationFactories\Concretes\ReservationFactory4.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reservation_App.Client">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAgIAAIAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>client.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_abstractReservationFactory" />
+      <Field Name="_konaklama" />
+      <Field Name="_ulasim" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="Reservation_App.ITransportation">
+    <Position X="1.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\ITransportation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Reservation_App.IAccommodation">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Abstracts\IAccommodation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

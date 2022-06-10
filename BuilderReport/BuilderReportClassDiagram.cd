@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Reservation_App.ReservationReportBuilderBase">
+    <Position X="6.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EgAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAIEAAEAAAAA=</HashCode>
+      <FileName>BuilderReport\ReservationReportBuilderBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Info" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Reservation_App.HTMLReportBuilder">
+    <Position X="4.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAIAAAAAAAAAAAEAQgAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>BuilderReport\HTMLReportBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reservation_App.XMLReportBuilder">
+    <Position X="9" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAIAAAAAAAAAAAAAAgAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>BuilderReport\XMLReportBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reservation_App.JSONReportBuilder">
+    <Position X="6.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAIAAAAAAAAAAAAAAgAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>BuilderReport\JSONReportBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reservation_App.ReportInfo">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAQAAAAAAAAAAAgAA=</HashCode>
+      <FileName>BuilderReport\ReportInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GeneralInfo" />
+      <Property Name="DetailInfo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Reservation_App.ReservationInformations.ReservationDetailInfo">
+    <Position X="11.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReservationInformations\ReservationDetailInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reservation_App.ReservationInformations.ReservationGeneralInfo">
+    <Position X="13.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAIAAAAAAAAAAAAAAAAAAgAAAAAgAAAAAQA=</HashCode>
+      <FileName>ReservationInformations\ReservationGeneralInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CustomerInfo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Reservation_App.ReportManager">
+    <Position X="2.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAgAAAAAAAAAAACAA=</HashCode>
+      <FileName>ReportManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_builder" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Reservation_App.Customer">
+    <Position X="16.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAQAAAAAAAAiAAAAAAAAAAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
